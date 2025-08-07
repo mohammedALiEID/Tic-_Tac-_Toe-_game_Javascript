@@ -24,7 +24,7 @@ playerO.onclick = function () {
 AllBoxes.forEach(function (currentbox) {
   currentbox.onclick = () => {
     if (theSelectedPlayer == "x" && currentbox.innerHTML == "") {
-      currentbox.innerHTML = `<i class="fa-solid fa-xmark"></i>`;
+      currentbox.innerHTML = `<i class="fa-solid fa-x"></i>`;
       currentbox.setAttribute("id", "x");
       document.styleSheets[1].rules[18].style.setProperty("left", "50%"); // slider
       document.styleSheets[1].rules[16].style.setProperty("color", "#f5c842"); // first player
