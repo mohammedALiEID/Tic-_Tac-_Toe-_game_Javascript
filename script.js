@@ -107,7 +107,7 @@ function botTurn(passedtheSelectedPlayer) {
     let chosenIndex = Math.floor(Math.random() * embtyBoxesArray2.length);
     AllBoxes[
       embtyBoxesArray2[chosenIndex]
-    ].innerHTML = `<i class="fa-solid fa-xmark"></i>`;
+    ].innerHTML = `<i class="fa-solid fa-x"></i>`;
 
     AllBoxes[embtyBoxesArray2[chosenIndex]].setAttribute("id", "x");
   }
